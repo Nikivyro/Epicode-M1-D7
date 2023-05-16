@@ -68,6 +68,12 @@ nav .container ul > li{
 nav .container ul > li > a{
     color: #707070;
 }
+nav .container ul > li:last-child a{
+    background-color: #bababa;
+    color: #333333;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
 main .container{
     flex-wrap: wrap;
     justify-content: space-between;
