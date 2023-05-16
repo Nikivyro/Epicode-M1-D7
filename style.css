@@ -1,0 +1,109 @@
+body{
+    color:#707070;
+    font-family: 'Rubik', sans-serif;
+}
+h1{
+    color: #333333;
+    font-size: 3.5rem;
+    margin-bottom: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1500px;
+    margin: auto;
+    display: flex;
+}
+.container.intro{
+    margin: 2rem auto;
+    display: block;
+    text-align: center;
+}
+.related{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.related span{
+    font-weight: 600;
+    color: #cecece;
+}
+.related ul{
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+.related ul li{
+    margin: 1rem;
+}
+.related ul > li > a{ 
+    color: #D32F2F;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 1rem;
+}
+nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .container .action{
+    font-weight: 600;
+    color: #333333;
+    border: 1px solid #cecece;
+    padding: 0.5rem;
+    border-radius: 0.5rem
+}
+nav .container ul{
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+nav .container ul > li{
+    margin: 1rem;
+}
+nav .container ul > li > a{
+    color: #707070;
+}
+main .container{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+main .container .item{
+    width: 48%;
+    padding: 0 .5rem;
+    margin-bottom: 1rem;
+}
+.item .caption{
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: center;
+}
+.item .caption .name{
+    color: #333333;
+    font-weight: 600;
+    margin: 0 0.4rem;
+}
+.item .caption .tag{
+    color: #ffffff;
+    font-weight: 600;
+    background-color: #dedede;
+    border-radius: 0.2rem;
+    padding: 0.2rem;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+}
+ .item .caption .love{
+    margin-left: auto;
+    margin-right: 0.3rem;
+}
+
+
+@media (min-width: 992px) {
+    main .container .item{
+        width: 23%;
+    }
+}
